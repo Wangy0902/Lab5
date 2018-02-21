@@ -9,8 +9,14 @@
  */
 public class Bank {
 
-    public String bankName;
+    /**
+     * bank name.
+     */
+    private String bankName;
 
+    /**
+     * the bank.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -29,6 +35,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -45,6 +52,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -64,6 +72,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -79,7 +88,10 @@ public class Bank {
          */
     }
 
-    public static int totalAccounts = 0;
+    /**
+     * total account.
+     */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *
@@ -89,6 +101,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return 0;
     }
 
     /**
